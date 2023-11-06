@@ -1,0 +1,46 @@
+.nav {
+	/* Позиционирование */
+	grid-area: nav;
+	position: fixed;
+	width: 400px;
+	height: 100%;
+
+	/* Оформление */
+	background: #383838;
+}
+
+.nav_logo {
+	display: flex;
+	margin-left: 93px;
+	margin-top: 59px;
+	margin-bottom: 44px;
+}
+
+.nav_component a {
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 310px;
+	height: 70px;
+	align-items: center;
+	flex-shrink: 0;
+
+	color: #B7B7B7;
+
+	font-family: Open Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav_component li {
+	display: flex;
+	margin-left: 30px;
+	width: 340px;
+	border-top: 2px solid rgba(242, 242, 242, 0.10);
+}
+.nav_component li:first-child {
+	border: none;
+}

@@ -1,0 +1,125 @@
+.main_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 370px);
+    gap: 30px 48px;
+    justify-content: space-around;
+
+	/* Позиционирование */
+	grid-area: content;
+
+}
+
+.movie_card {
+    width: 370px;
+    height: 700px;
+
+    border-radius: 20px;
+    background: #FFF;
+
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.movie_card img {
+    height: 439px; 
+    width: 370px;
+    margin: 0;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main_content .movie_name {
+    width: 330px;
+    margin-top: 19px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #F2F2F2 ;
+}
+
+.main_content .movie_name h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #333;
+
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main_content .movie_name h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #999;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 178.571% */
+}
+
+.main_content .description {
+    height: 99px;
+    width: 330px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.main_content .description p {
+    margin: 0; /* Убираем внешний отступ */
+    -webkit-line-clamp: 5; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+
+    color: #333;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.main_content .movie_info {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.main_content .movie_info img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 3px;
+}
+.main_content .movie_info_time {
+    display: flex;
+
+    color: #CCC;
+
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 183.333% */
+}
+
+.main_content .movie_info_genre {
+    color: #CCC;
+
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 220% */
+    text-transform: uppercase;
+}

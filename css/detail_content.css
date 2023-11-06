@@ -1,0 +1,155 @@
+.detail_content {
+    display: block;
+	/* Позиционирование */
+
+    background: #FFF;
+
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+.detail_content .movie_header {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 17px;
+    margin-left: 44px;
+    margin-right: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F2F2 ;
+}
+
+
+.detail_content .eng_name_age {
+    display:flex;
+    gap: 10px;
+}
+
+.detail_content .eng_name_age p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:3px;
+    
+    border-radius: 7px;
+    border: 3px solid #CCC;
+
+    background: rgba(242, 242, 242, 0.10);
+
+    color: #CCC;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.detail_content .rating {
+    display: flex;
+    align-items: center;
+}
+.detail_content .rating span {
+	font-size: 40px;
+	margin: 0 2px;
+	line-height: 1;
+	color: #F2F2F2;
+}
+.detail_content .rating > span:before {
+	content: '■';
+}
+.detail_content .rating > span.active {
+	color: #E78818;
+}
+
+.detail_content .rating p {
+    width: 54.953px;
+    height: 42px;
+    margin: 12px;
+    padding-top: 13px;
+
+    background-image: url(../img/Ellipse.svg);
+    background-repeat: no-repeat;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail_content .movie_name h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #333;
+
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail_content .movie_name h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #999;
+
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.img_description {
+    display: flex;
+    gap: 45px;
+    padding: 32px 41px 56px 39px;
+}
+
+.movie_detail_poster {
+    width: 468.599px;
+    height: 730px;
+}
+
+.movie_info {
+    display: grid;
+    grid-template-columns: 220px auto;
+}
+
+.description h1 {
+    margin-top: 7px;
+    margin-bottom: 20px;
+
+    color: #333;
+
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description h2 {
+    width: 219px;
+
+    color: #666;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description p {
+    color: #000;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}

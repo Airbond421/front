@@ -10,12 +10,60 @@
 </head>
 <body class ="body">
 	<div class="header">
+			<form class="search_form">
+				<input type="text" class="search_text" placeholder="Поиск по каталогу...">
+				<input type="submit" class = "search_submit" name="submit" class="submit" value="ИСКАТЬ">
+			</form>
+			<form class="add_movie_form" action="#">
+				<button class="add_movie_button">ДОБАВИТЬ ФИЛЬМ</button>
+			</form>
 	</div>
 
 	<div class="nav">
-	</div>
+		<img class = "nav_logo" src="img/logo.svg" alt="">
+		<ul class="nav_component">
+			<li><a href="index.html">ГЛАВНАЯ</a></li>
+			<li><a href="#">ТРИЛЛЕР</a></li>
+			<li><a href="#">КОМЕДИЯ</a></li>
+			<li><a href="#">...</a></li>
+			<li><a href="#">ФАНТАСТИКА</a></li>
+			<li><a href="#">ИЗБРАННОЕ</a></li>
+		</ul>
 
+		</div>
+	</div>
 	<div class="content">
+		<div class="main_content">
+			<a href="detail.html">
+				<div class = "movie_card">
+					<img src="img/movie/2b56a02336bf3cb72bf326a95e82e710.jpg" alt="">
+					<div class="movie_name">
+						<h1>Головоломка</h1>
+						<h2>Inside Out</h2>
+					</div>
+					<div class="description">
+						<p>
+							Райли — обычная 11-летняя школьница, и, как у каждого из нас, ее поведение определяют пять базовых эмоций: Радость, Печаль, Страх, Гнев и Брезгливость. Эмоции живут в сознании девочки и каждый день помогают ей справляться с проблемами, руководя всеми ее поступками. До поры до времени эмоции живут дружно, но вдруг оказывается, что Райли и ее родителям предстоит переезд из небольшого уютного городка в шумный и людный мегаполис. Каждая из эмоций считает, что именно она лучше прочих знает, что нужно делать в этой непростой ситуации, и в голове у девочки наступает полная неразбериха. Чтобы наладить жизнь в большом городе, освоиться в новой школе и подружиться с одноклассниками, эмоциям Райли предстоит снова научиться работать сообща.
+						</p>
+					</div>
+					<div class="movie_info">
+						<div class="movie_info_time">
+							<img src="img/clock.svg" alt="">
+							<p>163 мин. / 02:43</p>
+						</div>
+						<p class="movie_info_genre">мультфильм, семейный, комедия</p>
+					</div>
+				</div>
+			</a>
+		
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+			<div class = "movie_card"></div>
+		</div>
 	</div>
 </body>
 </html>
